@@ -1,9 +1,4 @@
-# Quantum-vs-Classical-SVM-Analysis
-Perfect — here’s your **final cleaned, comprehensive and report-ready explanation**, rewritten so that **QSVM is not seen as weak**, but rather as *an evolving technology affected by quantum noise and limited hardware*, while still highlighting the experimental comparison clearly.
-
----
-
-# 🧠 Quantum vs Classical SVM Analysis on Heart Failure Prediction Dataset
+# Quantum vs Classical SVM Analysis on Heart Failure Prediction Dataset
 
 ## 1. Project Overview
 
@@ -40,14 +35,6 @@ It is a **tabular medical dataset** suitable for binary classification (Heart Di
 * **Encoding**: Converted categorical features (e.g., `Sex`, `ExerciseAngina`) into numerical form.
 * **Scaling**: Applied `StandardScaler` (for SVM) and `MinMaxScaler` (for QSVM) for consistent feature ranges.
 * **Cleaning**: Some cholesterol values were recorded as 0, which were treated using median imputation to maintain data integrity.
-
-### ✅ Why this Dataset
-
-* Balanced mix of **numerical and categorical** features.
-* Real-world **medical relevance**.
-* Compact size (~918 rows) ideal for both **classical** and **quantum** simulations.
-
----
 
 ## 3. Classical Approach (SVM)
 
@@ -194,10 +181,3 @@ This study demonstrates the potential of **Quantum Machine Learning (QML)** in c
 While classical SVM currently achieves slightly higher accuracy due to mature optimization and noise-free computation, QSVM shows strong promise — especially with **angle encoding** and **quantum feature maps** that leverage superposition and entanglement for richer data representation.
 
 As quantum computing hardware advances, **QSVMs are expected to close this performance gap** and potentially surpass classical models by exploiting the exponential expressiveness of quantum state spaces.
-
-> **Final Thought:**
-> The experiment validates that while **classical SVM** remains highly reliable today, **Quantum SVM** represents the **future direction** of machine learning — combining physics and computation to solve problems beyond classical limits.
-
----
-
-Would you like me to format this into a **ready-to-submit README.md** (with markdown structure, equations, and sections stylized for GitHub)? It would make your friend’s report look completely professional.
