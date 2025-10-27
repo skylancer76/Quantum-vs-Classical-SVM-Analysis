@@ -87,7 +87,7 @@ The **Quantum Support Vector Machine (QSVM)** extends SVM concepts into the **qu
 
 Quantum encoding defines *how classical data is represented* in quantum states. The project implemented three main encoding methods:
 
-| Encoding Type          | Description                                                     | Key Idea                                                     |                                                         |
+| Encoding Type          | Description                                                     | Key Idea                                                     |                            
 | ---------------------- | --------------------------------------------------------------- | ------------------------------------------------------------ | 
 | **Basis Encoding**     | Maps classical bits directly to qubit states (0 → 0⟩, 1 → 1⟩).  | Simple and direct representation; limited by qubit count.    |                            
 | **Amplitude Encoding** | Uses amplitude of quantum states to represent real-valued data. | Efficient in qubit usage, but complex to prepare accurately. |
